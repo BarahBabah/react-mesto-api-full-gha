@@ -1,0 +1,13 @@
+.gallary__figure {
+  background-position: bottom left;
+  background-color: white;
+  width: 282px;
+  height: 100%;
+  border-radius: 13px 13px 10px 10px;
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  flex-direction: column;
+  background-color: white;
+  z-index: 0; */
+}

@@ -1,0 +1,4 @@
+.profile__avatar-background:hover{
+    background:no-repeat center url(./../../../images/pencil.svg);
+    background-size: 26px 26px;
+  }

@@ -1,0 +1,9 @@
+.auth__container {
+    max-width: 358px;
+    min-height: calc(100vh - 410px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 80px 0;
+  }
+  

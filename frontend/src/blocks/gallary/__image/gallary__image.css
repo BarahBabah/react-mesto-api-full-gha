@@ -1,0 +1,13 @@
+.gallary__image {
+  object-fit:cover;
+  max-width: 282px;
+  min-width: 282px;
+  max-height: 282px;
+  min-height: 282px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 25px;
+  background-color: black;
+}
+.gallary__image:hover{
+  cursor: pointer;
+}
