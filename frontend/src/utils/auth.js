@@ -1,4 +1,4 @@
-const BASE_URL = 'http://novelthunderstorm.nomoreparties.sbs/api';
+const BASE_URL = 'https://novelthunderstorm.nomoreparties.sbs/api';
 function getJson(response) {
     if (response.ok) {
         return response.json();

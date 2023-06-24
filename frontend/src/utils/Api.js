@@ -91,7 +91,7 @@ class Api {
   }
 
 }
-const basePath = "http://novelthunderstorm.nomoreparties.sbs/api";
+const basePath = "https://novelthunderstorm.nomoreparties.sbs/api";
 const api = new Api({basePath, headers: {
   'Accept': 'application/json',
   "Content-Type": "application/json",
