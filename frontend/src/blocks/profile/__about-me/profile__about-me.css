@@ -1,0 +1,25 @@
+.profile__about-me {
+  max-width: 188.250px;
+  min-width: 157.641px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  /* сверху мои приколы */
+  margin: 0;
+  /* шрифт */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  grid-area: profile__about-me;
+}
+
+@media screen and (min-width: 880px) {
+  .profile__about-me {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
+    max-width: 336px;
+  }
+}

@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/BarahBabah/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 51.250.100.115
 
-Frontend https://...
+Frontend http://novelthunderstorm.nomoreparties.sbs
 
-Backend https://...
+Backend http://novelthunderstorm.nomoreparties.sbs/api

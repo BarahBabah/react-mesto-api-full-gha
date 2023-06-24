@@ -1,0 +1,6 @@
+.popup__container_view-card {
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+  min-width: 0;
+}

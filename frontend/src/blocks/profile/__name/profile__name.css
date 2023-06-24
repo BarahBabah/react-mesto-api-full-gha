@@ -1,0 +1,28 @@
+.profile__name {
+  padding-left: 28px;
+  min-width: 188.250px;
+  max-width: 188.250px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  /* сверху мои приколы */
+  margin: 0;
+  /* display: inline-block; */
+  padding-bottom: 7px;
+  /* шрифт */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width:880px) {
+  .profile__name {
+    padding-left: 0;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: start;
+    max-width: 292.828px;
+  }
+}

@@ -1,0 +1,14 @@
+.gallary__figcaption-title {
+  margin: 0;
+  max-width: 198px;
+  /* шрифт */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: content-box;
+}
