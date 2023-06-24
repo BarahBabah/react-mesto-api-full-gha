@@ -17,6 +17,8 @@ app.get('/crash-test', () => {
   }, 0);
 });
 app.use(express.json());
-app.use('/api', router);
+// app.use('/api', router);
+app.use(router);
+
 app.listen(PORT, () => {
 });
