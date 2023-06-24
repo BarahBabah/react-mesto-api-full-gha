@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.100.115
+IP-адрес 51.250.100.115;
 
-Frontend http://novelthunderstorm.nomoreparties.sbs
+Frontend http://novelthunderstorm.nomoreparties.sbs;
 
-Backend http://novelthunderstorm.nomoreparties.sbs/api
+Backend http://novelthunderstorm.nomoreparties.sbs/api;

@@ -11,7 +11,11 @@ app.use(cors());
 mongoose.connect(MONGO_URL);
 
 mongoose.set({ runValidators: true });
-
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 app.use(express.json());
 app.use('/api', router);
 app.listen(PORT, () => {
