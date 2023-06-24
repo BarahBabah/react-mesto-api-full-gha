@@ -14,4 +14,4 @@ IP 51.250.100.115
 
 Frontend http://novelthunderstorm.nomoreparties.sbs
 
-Backend http://novelthunderstorm.nomoreparties.sbs/api
+Backend http://novelthunderstorm.nomoreparties.sbs/api/
