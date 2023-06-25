@@ -14,15 +14,16 @@ app.use(cors());
 mongoose.connect(MONGO_URL);
 
 mongoose.set({ runValidators: true });
+
+
+app.use(express.json());
+
+router.use(requestLogger); // подключаем логгер запросов
 app.get('/crash-test', () => {
   setTimeout(() => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
 });
-
-app.use(express.json());
-
-router.use(requestLogger); // подключаем логгер запросов
 app.use(router);
 router.use(errorLogger); // подключаем логгер ошибок
 router.use(errors()); // обработчик ошибок celebrate
