@@ -17,18 +17,18 @@ mongoose.set({ runValidators: true });
 
 app.use(express.json());
 
-router.use(requestLogger); // подключаем логгер запросов
+app.use(requestLogger); // подключаем логгер запросов
 app.get('/crash-test', () => {
   setTimeout(() => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
 });
 app.use(router);
-router.use(errorLogger); // подключаем логгер ошибок
-router.use(errors()); // обработчик ошибок celebrate
+app.use(errorLogger); // подключаем логгер ошибок
+app.use(errors()); // обработчик ошибок celebrate
 
 // централизованный обработчик ошибок
-router.use((err, req, res, next) => {
+app.use((err, req, res, next) => {
   const { statusCode = SERVER_ERROR, message } = err;
   res.status(statusCode).send({
     message: statusCode === 500
