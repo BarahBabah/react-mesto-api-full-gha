@@ -15,7 +15,6 @@ mongoose.connect(MONGO_URL);
 
 mongoose.set({ runValidators: true });
 
-
 app.use(express.json());
 
 router.use(requestLogger); // подключаем логгер запросов
